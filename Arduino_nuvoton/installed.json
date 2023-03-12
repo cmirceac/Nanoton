@@ -1,0 +1,56 @@
+{
+  "packages": [
+    {
+      "name": "nuvoton",
+      "maintainer": "Nuvoton",
+      "websiteUrl": "http://www.nuvoton.com",
+      "Url": "https://raw.githubusercontent.com/OpenNuvoton/NuMaker_UNO/master/package_nuvoton_index.json",
+      "email": "",
+      "platforms": [
+        {
+          "name": "NuMaker UNO",
+          "architecture": "nuvoton",
+          "version": "2.0.1",
+          "deprecated": false,
+          "category": "Arduino",
+          "url": "https://github.com/OpenNuvoton/NuMaker_UNO/blob/master/Arduino_nuvoton.tar.bz2?raw=true",
+          "archiveFileName": "Arduino_nuvoton.tar.bz2",
+          "checksum": "SHA-256:a80a599a7d8e36076f777eacc47dc933bb651d911012cba88f151d773db0995a",
+          "size": "46650702",
+          "boards": [
+            {
+              "name": "NuMaker NUC131"
+            },
+            {
+              "name": "NuMaker M032BT"
+            },
+            {
+              "name": "NuMaker M252"
+            },
+            {
+              "name": "NuMaker M467"
+            },
+            {
+              "name": "NuMaker M487"
+            }
+          ],
+          "help": {},
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            }
+          ],
+          "discoveryDependencies": [],
+          "monitorDependencies": []
+        }
+      ],
+      "tools": [],
+      "help": {
+        "online": "http://www.nuvoton.com"
+      }
+    }
+  ],
+  "IsTrusted": false
+}
