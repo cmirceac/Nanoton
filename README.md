@@ -1,2 +1,3 @@
 # Nanoton
-Arduino integration for Nanonoton Board
+Arduino integration for Nanoton Board
+
